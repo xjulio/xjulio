@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Reliable systems. Repeatable delivery.</title>
+  <desc id="desc">A navy banner with cyan accents and a connected build, deploy, observe loop.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#142D45"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="48" y1="0" x2="1152" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#5EEAD4"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="320" rx="20" fill="url(#background)"/>
+  <rect width="1200" height="320" rx="20" fill="url(#grid)"/>
+  <path d="M48 1H1152" stroke="url(#accent)" stroke-width="2"/>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif">
+    <text x="52" y="58" fill="#5EEAD4" font-size="13" font-weight="600" letter-spacing="3">CLOUD / RELIABILITY / AUTOMATION</text>
+    <text x="48" y="128" fill="#F8FAFC" font-size="52" font-weight="700" letter-spacing="-2">Reliable systems.</text>
+    <text x="48" y="190" fill="#F8FAFC" font-size="52" font-weight="700" letter-spacing="-2">Repeatable delivery.</text>
+    <text x="52" y="244" fill="#B6C7D9" font-size="18">Engineering, research, and teaching. Connected.</text>
+    <text x="52" y="287" fill="#7B97B2" font-size="12" letter-spacing="2">JULIO DAMASCENO  /  @XJULIO</text>
+    <rect x="754" y="48" width="394" height="224" rx="14" fill="#0B1424" fill-opacity=".7" stroke="#344C63"/>
+    <circle cx="776" cy="68" r="3" fill="#5EEAD4"/>
+    <text x="790" y="72" fill="#9FB7CC" font-size="11" letter-spacing="2">THE ENGINEERING LOOP</text>
+    <path d="M814 157H1086M1086 178V222H814V178" stroke="#476C89" stroke-width="2"/>
+    <path d="m1035 152 6 5-6 5M946 217l-6 5 6 5" stroke="#5EEAD4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#142D45" stroke="#38BDF8">
+      <rect x="778" y="124" width="102" height="64" rx="10"/>
+      <rect x="902" y="124" width="102" height="64" rx="10"/>
+      <rect x="1026" y="124" width="102" height="64" rx="10"/>
+    </g>
+    <g fill="#E0F2FE" font-size="12" font-weight="600" text-anchor="middle" letter-spacing="1">
+      <text x="829" y="162">BUILD</text>
+      <text x="953" y="162">DEPLOY</text>
+      <text x="1077" y="162">OBSERVE</text>
+    </g>
+    <rect x="898" y="210" width="108" height="24" rx="12" fill="#0B1424"/>
+    <text x="952" y="226" fill="#5EEAD4" font-size="10" letter-spacing="2" text-anchor="middle">IMPROVE</text>
+  </g>
+</svg>

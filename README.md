@@ -1,53 +1,93 @@
-<h1 align="center">Hi, I'm Julio Damasceno 👋</h1>
+<p align="center">
+  <img src="assets/header.svg" alt="Reliable systems. Repeatable delivery. — Cloud, reliability, and automation by Julio Damasceno" width="1200">
+</p>
+
+<h1 align="center">Julio Damasceno</h1>
 
 <p align="center">
-  <b>Site Reliability Engineering · Cloud Infrastructure · DevOps</b>
+  <strong>Lead Site Reliability Engineer at Coupa · Founder of DevOpsHouse · PhD in Cloud Computing</strong>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/xjulio/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-xjulio-0A66C2?logo=linkedin&logoColor=white"></a>
-  <a href="https://devopshouse.io/en/"><img alt="DevOpsHouse" src="https://img.shields.io/badge/DevOpsHouse-devopshouse.io-111827?logo=githubsponsors&logoColor=white"></a>
-  <a href="https://github.com/xjulio?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/xjulio?style=flat&logo=github&label=followers"></a>
-  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=xjulio&label=profile%20views&style=flat">
+  I build and operate cloud infrastructure, automate delivery, and help teams understand their production systems.
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/xjulio/"><img alt="Connect on LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge"></a>
+  <a href="https://devopshouse.io/en/"><img alt="Explore DevOpsHouse consulting and training" src="https://img.shields.io/badge/DevOpsHouse-Consulting_%26_Training-0F766E?style=for-the-badge"></a>
+  <a href="https://github.com/orgs/devopshouse/repositories"><img alt="Explore DevOpsHouse open source" src="https://img.shields.io/badge/Open_Source-DevOpsHouse-334155?style=for-the-badge&logo=github&logoColor=white"></a>
+</p>
+
+<p align="center">
+  <a href="#engineering-focus">Engineering</a> ·
+  <a href="#tools-i-work-with">Tools</a> ·
+  <a href="#open-source-at-devopshouse">Open source</a> ·
+  <a href="#certifications">Certifications</a>
 </p>
 
 ---
 
-I'm a Lead Site Reliability Engineer at Coupa Software and the founder of [DevOpsHouse](https://devopshouse.io/en/).
+## Engineering focus
 
-With a PhD in Cloud Computing and over 20 years of experience, I combine engineering, research, consulting, and teaching to help teams build and operate reliable systems.
+Over 20 years across engineering, research, consulting, and teaching. My work connects cloud architecture with the day-to-day realities of operating and delivering software.
 
-My work focuses on cloud infrastructure, Kubernetes, observability, infrastructure as code, and delivery automation.
+| Build & deliver | Operate & improve |
+| :--- | :--- |
+| **Cloud infrastructure** — AWS, Google Cloud, and OCI; Kubernetes environments and cloud adoption. | **Site reliability** — resilient systems, production operations, and practical automation. |
+| **Infrastructure as Code & GitOps** — reproducible environments with Terraform, Ansible, and Argo CD. | **Observability** — making system behavior visible and useful for engineering decisions. |
+| **CI/CD & tooling** — delivery pipelines, GitHub Actions runners, and tools that reduce manual work. | **Teaching & consulting** — architecture guidance and hands-on cloud and DevOps training. |
 
-## 🛠️ Tech stack
+## Tools I work with
 
 <p>
-  <img alt="AWS, Google Cloud, Kubernetes, Terraform, Ansible, Argo CD, GitHub Actions" src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,terraform,ansible,argocd,githubactions&perline=7">
+  <img alt="AWS, Google Cloud, Kubernetes, Terraform, Ansible, and GitHub Actions" src="https://skillicons.dev/icons?i=aws,gcp,kubernetes,terraform,ansible,githubactions&perline=6">
 </p>
 
-Also: Oracle Cloud Infrastructure, Terramate.
+**Also in my workflow:** Argo CD · Oracle Cloud Infrastructure (OCI) · Terramate · Helm
 
-## 🔭 What I work on
+## Open source at DevOpsHouse
 
-- **Cloud & Kubernetes** — infrastructure and workloads across AWS, Google Cloud, and Oracle Cloud Infrastructure.
-- **Infrastructure as Code & GitOps** — reproducible environments with Terraform, Ansible, and Argo CD.
-- **Reliability & Observability** — understanding production systems and improving their resilience.
-- **CI/CD & Developer Tooling** — automating delivery and simplifying everyday engineering workflows.
-- **Teaching & Consulting** — hands-on training, architecture guidance, and cloud adoption.
+Tools built around infrastructure and delivery workflows. Explore the code, open an issue, or contribute.
 
-## 🚀 Open source at DevOpsHouse
+### [tmswitch](https://github.com/devopshouse/tmswitch)
 
-I share tools and infrastructure work through [DevOpsHouse](https://github.com/devopshouse).
+**Terramate version management.** A CLI that installs and switches between Terramate versions, with support for project version files.
 
-| Project | Description |
-| --- | --- |
-| [tmswitch](https://github.com/devopshouse/tmswitch) | A CLI for installing and switching between Terramate versions. |
-| [oci-oidc-auth-config](https://github.com/devopshouse/oci-oidc-auth-config) | A GitHub Action for OIDC-based authentication to OCI. |
-| [oci-github-runner](https://github.com/devopshouse/oci-github-runner) | A GitHub Actions runner image for OCI Container Instances, with infrastructure tooling and OCI Vault integration. |
+`Go` · `CLI` · `Infrastructure as Code`
 
-[Explore the repositories →](https://github.com/orgs/devopshouse/repositories)
+### [oci-oidc-auth-config](https://github.com/devopshouse/oci-oidc-auth-config)
 
-## 📊 GitHub stats
+**OCI authentication for GitHub Actions.** An action that exchanges a GitHub OIDC token for an OCI session and configures the OCI CLI for subsequent workflow steps.
+
+`GitHub Actions` · `OIDC` · `Oracle Cloud`
+
+### [oci-github-runner](https://github.com/devopshouse/oci-github-runner)
+
+**GitHub Actions runners on OCI.** A runner image for OCI Container Instances with OCI CLI, Ansible, kubectl, Helm, and OCI Vault integration.
+
+`Containers` · `CI/CD` · `Oracle Cloud`
+
+[**View all DevOpsHouse repositories →**](https://github.com/orgs/devopshouse/repositories)
+
+## Certifications
+
+Continuous learning, backed by hands-on credentials.
+
+<a href="https://certdirectory.io/profile/xjulio?utm_source=github&utm_medium=readme">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://certdirectory.io/badge/xjulio.svg?style=card&theme=dark">
+    <img alt="Julio Damasceno on CertDirectory" src="https://certdirectory.io/badge/xjulio.svg?style=card">
+  </picture>
+</a>
+
+## Beyond the code
+
+Through [DevOpsHouse](https://devopshouse.io/en/), I offer consulting and hands-on training in cloud infrastructure, Kubernetes, infrastructure as code, and software delivery. I bring research and production experience into the same conversation.
+
+**Let's connect:** [LinkedIn](https://www.linkedin.com/in/xjulio/) · [Consulting & training](https://devopshouse.io/en/)
+
+<details>
+<summary><strong>GitHub activity & statistics</strong></summary>
 
 <p align="center">
   <a href="https://github.com/xjulio">
@@ -73,18 +113,9 @@ I share tools and infrastructure work through [DevOpsHouse](https://github.com/d
   </a>
 </p>
 
-## 🎓 Certifications
-
-<a href="https://certdirectory.io/profile/xjulio?utm_source=github&utm_medium=readme">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://certdirectory.io/badge/xjulio.svg?style=card&theme=dark">
-    <img alt="Julio Damasceno on CertDirectory" src="https://certdirectory.io/badge/xjulio.svg?style=card">
-  </picture>
-</a>
-
-## 🤝 Connect
-
-<p>
-  <a href="https://www.linkedin.com/in/xjulio/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-xjulio-0A66C2?logo=linkedin&logoColor=white"></a>
-  <a href="https://devopshouse.io/en/"><img alt="DevOpsHouse" src="https://img.shields.io/badge/DevOpsHouse-devopshouse.io-111827?logo=githubsponsors&logoColor=white"></a>
+<p align="center">
+  <img alt="GitHub followers" src="https://img.shields.io/github/followers/xjulio?style=for-the-badge&logo=github&label=followers">
+  <img alt="Profile views" src="https://komarev.com/ghpvc/?username=xjulio&label=profile%20views&style=for-the-badge&color=0f766e">
 </p>
+
+</details>
